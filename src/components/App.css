@@ -1,0 +1,7 @@
+.ClothesItem .buyButton {
+  background-color: orange;
+}
+
+.ClothesItem .buyButton.bought {
+  background-color: green;
+}
