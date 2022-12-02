@@ -9,12 +9,13 @@ const itemsReducer = () => {
       category: "Ladies",
       query: "short, T-shirt",
     },
+
     {
-      type: "Horse Shoes",
-      product: "Simple Dalily T-Shirt",
+      type: "Accessories",
+      product: "belt",
       price: "12.00",
       category: "Ladies",
-      query: "short, T-shirt",
+      query: "belt",
     },
     {
       type: "Tops",
