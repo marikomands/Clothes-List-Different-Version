@@ -6,9 +6,13 @@ import ItemList from "./ItemList";
 const App = () => {
   return (
     <div>
-      <CategoryList />
-      <TypeList />
-      <ItemList />
+      <div className="categoryTypeFlex">
+        <CategoryList />
+        <TypeList />
+      </div>
+      <div className="itemFlex">
+        <ItemList />
+      </div>
     </div>
   );
 };
