@@ -42,7 +42,7 @@ const ClothesItem = ({ item }) => {
     <div className="ClothesItem" key={item.product}>
       <h2>Product: {item.product}</h2>
       <h2>Price: {item.price}</h2>
-      {imageSrc ? <img src={imageSrc} /> : <p>No Image</p>}
+      {imageSrc ? <img className="img" src={imageSrc} /> : <p>No Image</p>}
       {imageError ? <p>Couldn't get Image</p> : null}
       <button
         className={`buyButton ${buy ? "bought" : ""}`}
