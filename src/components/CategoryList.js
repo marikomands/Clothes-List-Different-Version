@@ -20,7 +20,7 @@ const CategoryList = ({ items, setCategory }) => {
             setCategory(category);
           }}
         >
-          {category}
+          <p style={{ fontWeight: "bold" }}> {category}</p>
         </div>
       );
     });
