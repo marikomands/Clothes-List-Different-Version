@@ -5,3 +5,23 @@
 .ClothesItem .buyButton.bought {
   background-color: green;
 }
+
+.categoryTypeFlex {
+  display: flex;
+  gap: 50px;
+}
+
+.img {
+  height: 300px;
+  width: 200px;
+}
+
+.type {
+  /* background: rgb(202, 190, 190); */
+  font-weight: bold;
+  color: rgb(179, 84, 84);
+}
+.itemFlex {
+  display: flex;
+  gap: 80px;
+}
