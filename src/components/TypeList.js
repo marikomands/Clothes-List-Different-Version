@@ -25,7 +25,7 @@ const SelectedTypes = ({ items, selectedCategory, setType }) => {
           setType(type);
         }}
       >
-        <p style={{ fontWeight: "bold" }}>{type}</p>
+        <div className="type">{type}</div>
       </div>
     );
   });
