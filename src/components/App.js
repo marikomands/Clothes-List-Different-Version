@@ -6,6 +6,7 @@ import ItemList from "./ItemList";
 const App = () => {
   return (
     <div>
+      <h2 style={{ textAlign: "center" }}>Sulis</h2>
       <div className="categoryTypeFlex">
         <CategoryList />
         <TypeList />
