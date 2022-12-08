@@ -9,11 +9,12 @@
 .categoryTypeFlex {
   display: flex;
   gap: 50px;
+  background-color: rgb(199, 185, 185);
 }
 
 .img {
-  height: 300px;
-  width: 200px;
+  height: 200px;
+  width: 180px;
 }
 
 .type {
@@ -21,6 +22,7 @@
   font-weight: bold;
   color: rgb(179, 84, 84);
 }
+
 .itemFlex {
   display: flex;
   gap: 80px;
