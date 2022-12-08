@@ -142,7 +142,7 @@ const itemsReducer = () => {
       product: "Daily Jogger Pants",
       price: "12.00",
       category: "Children",
-      query: "kids, jogger, pants",
+      query: "jogger, pants",
     },
   ];
 };
