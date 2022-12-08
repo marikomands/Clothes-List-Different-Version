@@ -23,7 +23,7 @@ const ClothesItem = ({ item }) => {
         );
 
         console.log("🚀 ~ itemsImages ~ data", data);
-        const imageUrl = data?.results[0]?.urls?.small;
+        const imageUrl = data?.results[0]?.urls?.regular;
         console.log("🚀 ~ getImage ~ imageUrl", imageUrl);
 
         if (imageUrl) {
